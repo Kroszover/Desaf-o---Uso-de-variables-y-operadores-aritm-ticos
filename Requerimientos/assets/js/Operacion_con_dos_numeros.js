@@ -24,12 +24,11 @@ while (num2 <=0) {
 
 
 //Mostrar por consola
-
-
-
-
-
-
-
-//Se muestra el resultado en la consola
-console.log(resultadosuma);
+//resultados
+console.log(`los resultados son:
+en suma ${suma},
+en resta ${resta},
+en division ${divi},
+en multiplicacion ${multi} y
+en modulo ${modulo}
+`)
