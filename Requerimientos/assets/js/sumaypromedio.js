@@ -1,4 +1,4 @@
-function cuarta() {
+function sumaypromedio() {
 
     let nume1 = parseFloat(prompt("Ingrese el primer número"))
     let nume2 = parseFloat(prompt("Ingrese el primer número"))
@@ -8,8 +8,26 @@ function cuarta() {
 
     let sumas = (nume1 + nume2 + nume3 + nume4 + nume5)
     let promedio = (sumas / 5)
-    document.getElementById('Cuartapregunta').innerHTML="La suma de los números es: " + sumas + " y el promedio es : " + promedio
+   
+
+    //Mostrar resultados.
+    //Inicio del comunicado
+    document.write("<h1>El resultado de las operaciones matematicas es el siguiente</h1><br>");
+
+    //suma
+document.write("<p>Resultado de la suma de los numeros es de: " +nume1+" + "+nume2+" + "+nume3+" + "+nume4+" + "+nume5+" = "+ sumas+"</p>"+"<br>");
+alert("Resultado de la suma de los numeros es de: " +nume1+" + "+nume2+" + "+nume3+" + "+nume4+" + "+nume5+" = "+ sumas);
+console.log("Resultado de la suma de los numeros es de: " +nume1+" + "+nume2+" + "+nume3+" + "+nume4+" + "+nume5+" = "+ sumas);
+
+//Promedio
+document.write("<p>El promedio de los números corresponde a : " +promedio+"</p>"+"<br>");
+alert("El promedio de los números corresponde a : " +promedio);
+console.log("El promedio de los números corresponde a : " +promedio);
+
+//fin de comunicado
+document.write("<h2>Operaciones terminadas</h2><br>");
 
 
 }
-//Mostrar resultados.
+//Llamado a la funcion
+sumaypromedio();

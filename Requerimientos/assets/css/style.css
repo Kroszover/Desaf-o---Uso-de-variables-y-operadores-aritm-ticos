@@ -1,5 +1,6 @@
 .titulo{
     text-align: center;
+    justify-content: center;
 }
 *{
     text-align: center;
@@ -25,4 +26,15 @@ body {
 .github{
     text-emphasis-color: white;
 }
+.diagfluj{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    left: 50%;
+}
 
+.num1{
+    color: aliceblue;
+}
