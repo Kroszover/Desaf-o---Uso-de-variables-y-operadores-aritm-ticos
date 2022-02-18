@@ -1,0 +1,28 @@
+.titulo{
+    text-align: center;
+}
+*{
+    text-align: center;
+    
+    
+}
+
+body {
+    height: 900px;
+    background-image: url("/assets/img/lobito.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 30rem;
+  }
+
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.github{
+    text-emphasis-color: white;
+}
+

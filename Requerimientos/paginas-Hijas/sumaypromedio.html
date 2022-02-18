@@ -1,3 +1,20 @@
+function cuarta() {
+
+    let nume1 = parseFloat(prompt("Ingrese el primer número"))
+    let nume2 = parseFloat(prompt("Ingrese el primer número"))
+    let nume3 = parseFloat(prompt("Ingrese el primer número"))
+    let nume4 = parseFloat(prompt("Ingrese el primer número"))
+    let nume5 = parseFloat(prompt("Ingrese el primer número"))
+
+    let sumas = (nume1 + nume2 + nume3 + nume4 + nume5)
+    let promedio = (sumas / 5)
+    document.getElementById('Cuartapregunta').innerHTML="La suma de los números es: " + sumas + " y el promedio es : " + promedio
+
+
+}
+//Mostrar resultados.
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -30,15 +47,7 @@
                   Selecciona uno
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                  <li><a class="dropdown-item" href="/assets/img/dg-flujo.bmp">Requerimiento - 1 - DIAGRAMA DE FLUJO</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/paginas-Hijas/Operacion_con_dos_numeros.html">Requerimiento - 2 - OPERACIONES CON DOS NUMEROS</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/paginas-Hijas/conversor_temperatura.html">Requerimiento - 3 - CONVERSOR TEMPERATURA</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/paginas-Hijas/conversor_dias.html">Requerimiento - 4 - CONVERSOR DIAS</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/paginas-Hijas/sumaypromedio.html">Requerimiento - 5 - SUMA Y PROMEDIO</a></li>
+                  <li><a class="dropdown-item" href="/index.html">Volver al inicio</a></li>
                 </ul>
               </li>
             </ul>
